@@ -1,6 +1,5 @@
 /*
  * @Author: Mohamed Jama
- * Student number: 16354491
  * Date: 15/10/2017
  * Assignment 2. MyBnb program.
  * 
@@ -269,7 +268,7 @@ public class Main {
  			text += "Owner Name: "+i.getOwnerName()+"\n";
  			text += "Postal Address: "+i.getPostalAddress()+"\n";
  			text += "Total Rental Days: "+i.getTotalRentalDays()+"\n";
- 			text += "Rental Cost Per Day: € "+i.getRentalCostPerDay()+"\n";
+ 			text += "Rental Cost Per Day: Â€ "+i.getRentalCostPerDay()+"\n";
  			text +="*******************************************************\n";
  			formatedOutPut +=text;
  		}
@@ -281,8 +280,8 @@ public class Main {
  			text += "Owner Name: "+i.getOwnerName()+"\n";
  			text += "Postal Address: "+i.getPostalAddress()+"\n";
  			text += "Total Rental Days: "+i.getTotalRentalDays()+"\n";
- 			text += "Rental Cost Per Day: € "+i.getRentalCostPerDay()+"\n";
- 			text += "Clearing Fee: € "+i.getClearingFees()+"\n";
+ 			text += "Rental Cost Per Day: Â€ "+i.getRentalCostPerDay()+"\n";
+ 			text += "Clearing Fee: Â€ "+i.getClearingFees()+"\n";
  			text +="*******************************************************\n";
  			formatedOutPut +=text;
  		}
@@ -294,9 +293,9 @@ public class Main {
  			text += "Owner Name: "+i.getOwnerName()+"\n";
  			text += "Postal Address: "+i.getPostalAddress()+"\n";
  			text += "Total Rental Days: "+i.getTotalRentalDays()+"\n";
- 			text += "Rental Cost Per Day: € "+i.getRentalCostPerDay()+"\n";
- 			text += "Room Service Cost Per Day: € "+i.getRoomServiceCostPerDay()+"\n";
- 			text += "Luxury Tax Per Day: € "+i.getLuxuryTaxPerDay()+"\n";
+ 			text += "Rental Cost Per Day: Â€ "+i.getRentalCostPerDay()+"\n";
+ 			text += "Room Service Cost Per Day: Â€ "+i.getRoomServiceCostPerDay()+"\n";
+ 			text += "Luxury Tax Per Day: Â€ "+i.getLuxuryTaxPerDay()+"\n";
  			text +="*******************************************************\n";
  			formatedOutPut +=text;
  		}
@@ -332,8 +331,8 @@ public class Main {
 			totalIncome += (i.getLuxuryTaxPerDay()+i.getRoomServiceCostPerDay() +i.getRentalCostPerDay()) * i.getTotalRentalDays();
 		}
 		DecimalFormat df = new DecimalFormat("#.##");
-		System.out.println("Total Income: €"+df.format(totalIncome));
-		JOptionPane.showMessageDialog(null, "Total Income: €"+df.format(totalIncome));
+		System.out.println("Total Income: Â€"+df.format(totalIncome));
+		JOptionPane.showMessageDialog(null, "Total Income: Â€"+df.format(totalIncome));
 	}
 	
 	
@@ -676,7 +675,7 @@ public class Main {
  			String text = "";
  			text += "Owner Name: "+i.getOwnerName()+"\n";
  			text += "Total Rental Days: "+i.getTotalRentalDays()+"\n";	
- 			text += "Rental Cost Per Day: € "+i.getRentalCostPerDay()+"\n";
+ 			text += "Rental Cost Per Day: Â€ "+i.getRentalCostPerDay()+"\n";
  			text += "Passengers Number: "+i.getPassengersNumber()+"\n";
  			text +="*******************************************************\n";
  			formatedOutPut +=text;
@@ -688,7 +687,7 @@ public class Main {
 
  			text += "Owner Name: "+i.getOwnerName()+"\n";
  			text += "Total Rental Days: "+i.getTotalRentalDays()+"\n";
- 			text += "Rental Cost Per Day: € "+i.getRentalCostPerDay()+"\n";
+ 			text += "Rental Cost Per Day: Â€ "+i.getRentalCostPerDay()+"\n";
  			text += "Cargo Weight "+i.getCargoWeight()+"\n";
  			text +="*******************************************************\n";
  			formatedOutPut +=text;
